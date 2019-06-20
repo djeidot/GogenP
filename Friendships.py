@@ -22,3 +22,6 @@ class Friendships:
 
     def get_friends(self, letter):
         return self.friendships[letter]
+
+    def get_people(self):
+        return self.friendships.keys()
